@@ -13,4 +13,4 @@
 * main_Weather.py: containts the main program for weather data
 * model.py: containts the DeepExtrema model 
 * train_model_gev.py: containts the training function 
-* train_utilities.py: containts the functions for training, such as all the plotting functions, metric calculations, etc.  
+* train_utilities.py: containts the functions for training, such as all the plotting functions, metrics calculations, etc.  
