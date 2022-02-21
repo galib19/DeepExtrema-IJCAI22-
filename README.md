@@ -1,1 +1,0 @@
-# DeepExtrema-IJCAI22-
