@@ -1,16 +1,29 @@
-# DeepExtrema-IJCAI22-
+# DeepExtrema-IJCAI22
 
-## Data: All the data files are available in the Data Folder
+## Data
+All data files can be found in the **Data** folder.
 
-## Code: All the codes are available in the Code Folder
+## Code
+All codes are available in the **Code** folder.
 
-* baseline_models.py: contains all the baselines except EVL. 
-* extreme_time(EVL).py: contains the EVL baseline (derived from this package: https://github.com/tymefighter/Forecast) 
-* extreme_time_2(EVL).py: EVL baseline (another version) (derived from this package: https://github.com/tymefighter/Forecast) 
-* general_utilities.py: containts the general functions for data processing, GEV likelihood estimation, standardization, etc. 
-* main_Ausgrid.py: containts the main program for Ausgrid data
-* main_Hurricanes.py: containts the main program for hurricanes data
-* main_Weather.py: containts the main program for weather data
-* model.py: containts the DeepExtrema model 
-* train_model_gev.py: containts the training function 
-* train_utilities.py: containts the functions for training, such as all the plotting functions, metrics calculations, etc.  
+### Baseline Models
+- `baseline_models.py`: Contains all baseline models except EVL.
+
+### EVL Baseline
+- `extreme_time(EVL).py`: EVL baseline derived from [Forecast package](https://github.com/tymefighter/Forecast).
+- `extreme_time_2(EVL).py`: Another version of EVL baseline derived from [Forecast package](https://github.com/tymefighter/Forecast).
+
+### General Utilities
+- `general_utilities.py`: Contains general functions for data processing, GEV likelihood estimation, standardization, etc.
+
+### Main Programs
+- `main_Ausgrid.py`: Main program for Ausgrid data.
+- `main_Hurricanes.py`: Main program for hurricanes data.
+- `main_Weather.py`: Main program for weather data.
+
+### DeepExtrema Model
+- `model.py`: Contains the DeepExtrema model.
+
+### Training Utilities
+- `train_model_gev.py`: Contains the training function.
+- `train_utilities.py`: Contains functions for training, including plotting and metrics calculations.
